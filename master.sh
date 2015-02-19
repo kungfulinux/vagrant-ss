@@ -11,7 +11,7 @@ class { 'r10k':
   version           => '1.4.0',
   sources           => {
     'puppet' => {
-      'remote'  => 'https://github.com/cvquesty/puppet_repository.git',
+      'remote'  => 'https://github.com/kungfulinux/puppet_repository.git',
       'basedir' => "${::settings::confdir}/environments",
       'prefix'  => false,
     }
